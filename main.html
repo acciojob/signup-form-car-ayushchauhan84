@@ -12,21 +12,34 @@
 		<input type="Text" id="name" placeholder="Name" Required="Yes" >
 		<label for="email">Email</label>
 		<input type="Email" id="email" placeholder="Email"Required="Yes" >
-		<label for="gender_m, gender_f">Gender</label>
-		<input type="Radio" id="gender_m, gender_f"Required="Yes" >
+
+
+		
+		<label for="gender_m">Male</label>
+		<input type="Radio" id="gender_m"Required="Yes" name="gender">
+		<label for="gender_f">Female</label>
+		<input type="Radio" id="gender_f"Required="Yes" name="gender">
+
+
 		<label for="cars">Car Brands</label>
-		<input type="Select" id="cars" placeholder="--Please choose an option--"Required="Yes" >
+		<Select id="cars" placeholder="--Please choose an option--"Required="Yes" >
+			<option>BMW</option>
+			<option>Audi</option>
+			<option>TATA</option>
+		</Select>
+
+		
 		<label for="age">Age</label>
 		<input type="Number" id="age" placeholder="Age"Required="Yes" >
 		<label for="dob">DOB</label>
 		<input type="Date" id="dob"Required="Yes" >
 		<label for="tel">Phone Number</label>
-		<input type="Tel" id="tel" placeholder="xxx-xxx-xxxx"Required="No" >
+		<input type="Tel" id="tel" placeholder="xxx-xxx-xxxx">
 		<label for="password">Password</label>
 		<input type="Password" id="password" placeholder="Password"Required="Yes" >
 		<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" id="tos"Required="Yes" >	
-		<input type="button" value="Submit">
+		<button type="Submit">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
